@@ -3473,10 +3473,12 @@ header {
     .contacts{
         margin: 150px auto 50px;
         width: 80%;
-        height: 155vh;
+        height: auto;
+        margin-top: 20px;
         background-color: #7E654E;
         border-radius: 15px;
         padding: 15px 40px;
+        margin-bottom: 20px;
         h1{
             color: #FDEED9;
             font-size: 40px;
@@ -3692,9 +3694,10 @@ header {
         }
         .proj{
             width: 80%;
-            height: 240vh;
+            height: auto;
             padding: 25px;
-            margin-bottom: 1em;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
             h1{
                 text-align: center;
                 font-size: 20px;
@@ -3740,9 +3743,21 @@ header {
         .adult-section{
             display: flex;
             flex-direction: column;
+            width: 75%;
+
             .adult-left{
-                width: fit-content;
-                margin: 0 0 0 -50px ;
+                h2{
+                    font-size: 19px;
+                }
+                h1{
+                    font-size: 30px;
+                }
+                
+                p{
+                    width: fit-content;
+                    font-size: 15px;
+
+                }
             }
 
 
@@ -3799,30 +3814,45 @@ header {
             }
             .prices{
                 position: relative;
-            top: -1060px;
+            top: -1025px;
             left: 95px;
             .coco-p{
-                margin-top: 10px;
+                margin-top: -5px;
             }
             .popoy-p{
-                margin-top: -20px;
+                margin-top: -35px;
+            }
+            .cleo-p{
+                margin-top: -15px;
             }
             
             }
             
         }
     .puppies-section{
-        margin-top: -60em;
         display: flex;
         flex-direction: column;
+        width: 75%;
+
         .adult-left{
-            width: fit-content;
-            margin: 0 0 0 -50px ;
+            h2{
+                font-size: 19px;
+            }
+            h1{
+                font-size: 30px;
+            }
+            
+            p{
+                width: fit-content;
+                font-size: 15px;
+
+            }
         }
 
 
-        .puppies-right{
+        .adult-right{
             margin-top: -15em;
+            
             .twinkle{
                 h2{
                     margin-left: 4em;
@@ -3874,22 +3904,15 @@ header {
         }
         .prices{
             position: relative;
-            top: -955px;
-            left: 90px;
-            font-size: 15px;
-            height: 0;
-            .twinkle-p{
-                margin-top: -5px;
-            }
-            .snow-p{
-                padding-top: 10px;
-            }
-            .mochi-p{
-                padding-top: 5px;
-            }
-            .oreo-p{
-                margin-top: -15px;
-            }
+        top: -880px;
+        left: 90px;
+        .mochi-p{
+            margin-top: -30px;
+        }
+        .popoy-p{
+            margin-top: -20px;
+        }
+        
         }
     }
     
@@ -3917,7 +3940,7 @@ header {
             color: #FDEED9;
             display: flex;
             flex-direction: column;
-            padding: 0 50px;
+            padding: 0 45px;
             gap: 0px;
             margin-left: -35px;
         }
@@ -4044,7 +4067,7 @@ header {
           color: #573C27;
           display: flex;
           flex-direction: column;
-          padding: 0 50px;
+          padding: 0 45px;
           gap: 0px;
           margin-left: -35px;
           p{
