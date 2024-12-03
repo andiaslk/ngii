@@ -2036,7 +2036,8 @@ header {
   }
 }
 
-@media (max-width: 768px){
+
+@media (max-width: 480px){
     /*header {
         img{
             width: 90px;
@@ -2076,23 +2077,19 @@ header {
         }
         
     } */
-     body{
-        width: 100%;
-        height: 100%;
-     }
     header{
         width: 100%;
-        height: 10vh;
+        height: 11.5vh;
         a{
            img{
             width: 70px;
             height: 40px;
             top: -6px;
-            right: 8.5em;
+            right: 1em;
            }
            h1{
-            font-size: 1.5em;
-            right: 6em;
+            font-size: 1.3em;
+            right: 1em;
            }
         }
         nav{
@@ -2102,7 +2099,6 @@ header {
                 padding-top: 0;
                 position: relative;
                 top: -30px;
-
             }
         }
     }
@@ -2122,6 +2118,10 @@ header {
         margin-top: -30px;
         margin-right: 20px;
         width: 8em;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
         .a-adult{
             position: relative;
             top: 0px;
@@ -2419,7 +2419,7 @@ header {
     .contacts{
         margin: 150px auto 50px;
         width: 80%;
-        height: 145vh;
+        height: 155vh;
         background-color: #7E654E;
         border-radius: 15px;
         padding: 15px 40px;
@@ -2568,7 +2568,7 @@ header {
     
     .habout{
         margin-top: 30px;
-        height: 6.5vh;
+        height: 8.5vh;
         h1{
             font-size: 2.5em;
         }
@@ -2619,7 +2619,7 @@ header {
         }
         .proj{
             width: 70vw;
-            height: 210vh;
+            height: 220vh;
             padding: 50px;
             margin-bottom: 1em;
             h1{
@@ -2727,18 +2727,13 @@ header {
                 position: relative;
             top: -1060px;
             left: 95px;
+            .coco-p{
+                margin-top: 10px;
+            }
             .popoy-p{
-                position: relative;
-                top: -10px;
+                margin-top: -20px;
             }
-            .cleo-p{
-                position: relative;
-                top: -25px;
-            }
-            .bella-p{
-                position: relative;
-                top: -20px;
-            }
+            
             }
             
         }
@@ -2752,7 +2747,7 @@ header {
         }
 
 
-        .adult-right{
+        .puppies-right{
             margin-top: -15em;
             .twinkle{
                 h2{
@@ -2842,6 +2837,7 @@ header {
     }
     .aform-container {
         width: 90%;
+        height: auto;
         form {
             margin: 0 auto;
             color: #FDEED9;
@@ -2944,6 +2940,7 @@ header {
             color: #FDEED9;
             font-weight: bold;
             font-size: 20px;
+            padding-bottom: 15px;
         }
       }
     
@@ -2953,7 +2950,7 @@ header {
         margin: 50px auto;
         background-color: #f8b4c6a7;
         width: 85%;
-        height: 115vh;
+        height: 123xvh;
         border-radius: 18px;
         h1{
             font-size: 45px;
@@ -3083,7 +3080,7 @@ header {
     
       }
 }
-@media (max-width: 480px){
+@media (max-width: 360px){
     /*header {
         img{
             width: 90px;
@@ -3125,7 +3122,7 @@ header {
     } */
     header{
         width: 100%;
-        height: 10vh;
+        height: 11.5vh;
         a{
            img{
             width: 70px;
@@ -3141,7 +3138,7 @@ header {
         nav{
             a{
                 font-size: 1.1em;
-                padding: 0 .5em;
+                padding: 0 .2em;
                 padding-top: 0;
                 position: relative;
                 top: -30px;
@@ -3155,15 +3152,18 @@ header {
             }
         .discover{
             img{
-
+                width: 90px;
+                margin-left: -10px;
             }
+            
         }
         }
     }
     .dropdown-content {
         margin-top: -30px;
-        margin-right: 20px;
+        margin-right: 5px;
         width: 8em;
+    
         .a-adult{
             position: relative;
             top: 0px;
@@ -3174,6 +3174,8 @@ header {
             top: -2px;
             font-size: 17.5px;
         }
+       
+         
     }
     /*----------------------------------------------------------------------------------------------------------------------------------*/
     
@@ -3221,7 +3223,7 @@ header {
         width: 150px;
         height: auto;
         text-align: center;
-        left: 27%; /* Center the dropdown relative to the button */
+        left: 31%; /* Center the dropdown relative to the button */
         transform: translateX(-50%);
         hr {
             border: 1px solid #FDEED9;
@@ -3277,16 +3279,17 @@ header {
     
     
         margin-top: 1.5em;
-        height: 100vh;
+        height: 110vh;
         column-gap: 10em;
         .d-text {
             margin: 45px 0px 0 25px;
             h1 {
-                font-size: 35px;
+                font-size: 30px;
                 color: #FDEED9;
             }
             p {
                 margin-top: 1em;
+                font-size: 15px;
             }
         }
         button {
@@ -3295,6 +3298,7 @@ header {
         .d-img{
     
             margin-top: 1em;
+            margin-left: -1.5em;
     
             .med{
                 img{
@@ -3306,9 +3310,10 @@ header {
                 p{
                     position: relative;
                     top: -3.5em;
-                    left: 13em;
+                    left: 14em;
                     color: #FDEED9;
                     font-weight: bold;
+                    font-size: 15px;
                 }
             }
             .vet{
@@ -3371,25 +3376,26 @@ header {
         flex-direction: column;
         color: #573C27;
         h1{
-            font-size: 40px;
+            font-size: 30px;
         }
         .step-1{
             margin-left: 150px;
     
             img{
                 position: relative;
-                left: -10em;
+                left: -9em;
                 border-radius: 0;
             }
             h1{
-                margin: -90px 0 0 40px ;
+                margin: -80px 0 0 60px ;
             }
             h2{
-                margin: 30px 0px 0px -150px ;
+                margin: 30px 0px 0px -170px ;
+                font-size: 20px;
             }
             p{
-                margin-left: -228px;
-                font-size: 18px;
+                margin-left: -225px;
+                font-size: 16px;
             }
             
         }.step-2{
@@ -3397,19 +3403,21 @@ header {
     
             img{
                 position: relative;
-                left: -10em;
+                left: -9em;
                 border-radius: 0;
             }
             h1{
-                margin: -90px 0 0 40px ;
+                margin: -80px 0 0 60px ;
             }
             h2{
-                margin: 40px 0px 0px -260px ;
+                margin: 40px 0px 0px -270px ;
+                font-size: 20px;
+
             }
             p{
                 margin-right: 0px;
                 margin-left: -210px;
-                font-size: 18px;
+                font-size: 16px;
             }
         }
         .step-3{
@@ -3417,18 +3425,20 @@ header {
     
             img{
                 position: relative;
-                left: -10em;
+                left: -9em;
                 border-radius: 0;
             }
             h1{
-                margin: -90px 0 0 40px ;
+                margin: -80px 0 0 60px ;
             }
             h2{
-                margin: 30px 0px 0px -150px ;
+                margin: 30px 0px 0px -180px ;
+                font-size: 20px;
+
             }
             p{
-                margin-left: -250px;
-                font-size: 18px;
+                margin-left: -245px;
+                font-size: 16px;
             }
             
         }.step-4{
@@ -3436,19 +3446,21 @@ header {
     
             img{
                 position: relative;
-                left: -10em;
+                left: -9em;
                 border-radius: 0;
             }
             h1{
-                margin: -90px 0 0 40px ;
+                margin: -80px 0 0 60px ;
             }
             h2{
-                margin: 40px 0px 0px -210px ;
+                margin: 40px 0px 0px -230px ;
+                font-size: 20px;
+
             }
             p{
                 margin-right: 0px;
-                margin-left: -210px;
-                font-size: 18px;
+                margin-left: -205px;
+                font-size: 16px;
             }
             
         }
@@ -3461,13 +3473,13 @@ header {
     .contacts{
         margin: 150px auto 50px;
         width: 80%;
-        height: 145vh;
+        height: 155vh;
         background-color: #7E654E;
         border-radius: 15px;
         padding: 15px 40px;
         h1{
             color: #FDEED9;
-            font-size: 45px;
+            font-size: 40px;
             letter-spacing: .05em;
             text-align: center;
     
@@ -3476,9 +3488,7 @@ header {
             display: flex;
             flex-direction: column;
             column-gap: 8em;
-            align-items: center;
-            text-align: center;
-            align-content: center;
+            
         }
         .c-text{
             margin-top: 12px;
@@ -3493,9 +3503,19 @@ header {
                 text-align: center;
                 align-content: center;
 
+                .c-support{
+                    font-size: 18px;
+                    p{
+                        font-size: 15px;
+                    }
+                }
                 .g-inquiries {
                     margin-top: 20px;
                     padding: 0 20px;
+                    font-size: 17px;
+                    p{
+                        font-size: 15px;
+                    }
                 }
             }
     
@@ -3504,11 +3524,19 @@ header {
     
                 .hq {
                     margin-top: 20px;
+                    font-size: 18px;
+                    p{
+                        font-size: 16px;
+                    }
                 }
     
                 .collab {
                     margin-top: 20px;
                     padding: 0 20px;
+                    font-size: 18px;
+                    p{
+                        font-size: 15px;
+                    }
                 }
             }
         }
@@ -3521,7 +3549,7 @@ header {
                 border: 2px solid #F8B4C6;
                 border-radius: 20px;
                 background-color: #7E654E;
-                margin-bottom: 70px;
+                margin-bottom: 50px;
                &:focus{
                     border-color:2px solid #F8B4C6;
                     outline: none; 
@@ -3558,7 +3586,7 @@ header {
             }
             button{
                 position: relative;
-                top: 3em;
+                top: 1em;
                 left: 0em;
                 width: 90px;
                 height: 35px;
@@ -3581,15 +3609,18 @@ header {
         footer{
 
             text-align: center;
-            margin-top: -15px;
+            margin-top: -50px;
             img{
                 position: relative;
-                top: 2em;
-                left: -9em;
+                top: 3em;
+                left: -6.5em;
+                width: 90px;
+                height: 50px;
             }
             h1{
-                margin-left: 3em;
-                font-size: 25px;
+                margin-left: 4em;
+                font-size: 20px;
+                margin-top: 15px;
             }
             hr{
                 color: white;
@@ -3597,7 +3628,7 @@ header {
             }
             span{
                 margin: 0 auto;
-                padding: 0 70px;
+                padding: 0 30px;
                 color: #F8B4C6;
             }
             a{
@@ -3610,7 +3641,7 @@ header {
     
     .habout{
         margin-top: 30px;
-        height: 6.5vh;
+        height: 8.5vh;
         h1{
             font-size: 2.5em;
         }
@@ -3634,7 +3665,7 @@ header {
             .mission{
                 background-color: #f8b4c696;
                 width: 60vw;
-                height: 30vh;
+                height: 35vh;
                 border-radius: 15px;
                 margin-top: 10px;
                 padding: 20px;
@@ -3647,7 +3678,7 @@ header {
             .vision{
                 background-color: #f8b4c696;
                 width: 60vw;
-                height: 34vh;
+                height: 39vh;
                 border-radius: 15px;
                 margin-top: 1em;
                 margin-left: 0px;
@@ -3660,12 +3691,13 @@ header {
     
         }
         .proj{
-            width: 70vw;
-            height: 210vh;
-            padding: 50px;
+            width: 80%;
+            height: 240vh;
+            padding: 25px;
             margin-bottom: 1em;
             h1{
                 text-align: center;
+                font-size: 20px;
             }
             hr{
                 background-color: #FDEED9;
@@ -3675,7 +3707,7 @@ header {
                 color: #FDEED9;
             }
             p {
-                margin-top: 1em;
+                margin-top: 0em;
             }
             .pictures{
                 position: absolute;
@@ -3683,10 +3715,10 @@ header {
                 display: flex;
                 flex-direction: column;
                 gap: 113px;
-                left: -105px;
                 img{
                     margin: 0 13px;
                     border-radius: 100px;
+                    margin-left: -20px;
                 }
             }
             .names{
@@ -3769,18 +3801,13 @@ header {
                 position: relative;
             top: -1060px;
             left: 95px;
+            .coco-p{
+                margin-top: 10px;
+            }
             .popoy-p{
-                position: relative;
-                top: -10px;
+                margin-top: -20px;
             }
-            .cleo-p{
-                position: relative;
-                top: -25px;
-            }
-            .bella-p{
-                position: relative;
-                top: -20px;
-            }
+            
             }
             
         }
@@ -3794,7 +3821,7 @@ header {
         }
 
 
-        .adult-right{
+        .puppies-right{
             margin-top: -15em;
             .twinkle{
                 h2{
@@ -3883,7 +3910,8 @@ header {
         }
     }
     .aform-container {
-        width: 90%;
+        width: 97%;
+        height: auto;
         form {
             margin: 0 auto;
             color: #FDEED9;
@@ -3986,6 +4014,7 @@ header {
             color: #FDEED9;
             font-weight: bold;
             font-size: 20px;
+            padding-bottom: 15px;
         }
       }
     
@@ -3995,7 +4024,7 @@ header {
         margin: 50px auto;
         background-color: #f8b4c6a7;
         width: 85%;
-        height: 115vh;
+        height: 123xvh;
         border-radius: 18px;
         h1{
             font-size: 45px;
@@ -4006,7 +4035,9 @@ header {
         }
     }
     .dform-container {
-        width: 90%;
+        width: 97%;
+        height: auto;
+        padding-bottom: 20px;
         form {
             
             margin: 0 auto;
